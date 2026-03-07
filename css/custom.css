@@ -2,21 +2,6 @@
  * Your custom CSS file
  *************************************************************************/
 
-/* Fonts 
-
-.prompt-bold {
-  font-family: "Prompt", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}*/
-
-/* Other stuff */
-
-body {
-  font-family: 'Prompt', Arial, sans-serif;
-  font-style: normal;
-}
-
 .custom-dropdown {
   width: 240px;
 }
