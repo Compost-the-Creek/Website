@@ -2,13 +2,13 @@
  * Your custom CSS file
  *************************************************************************/
 
-#menu-container {
-  background-color: #eeeae0;
+.menu-container {
+  background-color: #eeeae0 !important;
 }
 
-#site-title {
-  font-family: 'Prompt', Helvetica, sans-serif;
-  color: #7da12d;
+.site-title {
+  font-family: 'Prompt', Helvetica, sans-serif !important;
+  color: #7da12d !important;
 }
 
 .custom-dropdown {
