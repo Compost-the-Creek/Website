@@ -2,6 +2,11 @@
  * Your custom CSS file
  *************************************************************************/
 
+#site-title {
+  font-family: 'Prompt', Helvetica, sans-serif;
+  color: #7da12d;
+}
+
 .custom-dropdown {
   width: 240px;
 }
