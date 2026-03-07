@@ -2,6 +2,10 @@
  * Your custom CSS file
  *************************************************************************/
 
+#menu-container {
+  color: #eeeae0;
+}
+
 #site-title {
   font-family: 'Prompt', Helvetica, sans-serif;
   color: #7da12d;
