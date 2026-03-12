@@ -6,9 +6,13 @@
   min-width: 840px !important;
 }*/
 
-.flex-item flex-column {
-  width: 850px;
+/* Applies only when the screen is 1024px or wider */
+@media screen and (min-width: 840px) {
+  hr {
+    min-width: 840px; /* Adjust this value to your needs */
+  }
 }
+
 
 .menu-container {
   background-color: #eeeae0 !important;
