@@ -2,6 +2,10 @@
  * Your custom CSS file
  *************************************************************************/
 
+.flex-row {
+  min-width: 500px !important;
+}
+
 .menu-container {
   background-color: #eeeae0 !important;
   color: #344E41 !important;
