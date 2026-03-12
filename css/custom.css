@@ -2,17 +2,11 @@
  * Your custom CSS file
  *************************************************************************/
  
-/*.flex-item flex-column {
-  min-width: 840px !important;
-}*/
-
-/* Applies only when the screen is 1024px or wider */
 @media screen and (min-width: 840px) {
-  hr {
+  .flex-row {
     min-width: 840px; /* Adjust this value to your needs */
   }
 }
-
 
 .menu-container {
   background-color: #eeeae0 !important;
