@@ -6,6 +6,10 @@
   min-width: 840px !important;
 }*/
 
+hr {
+  min-width: 850px;
+}
+
 .menu-container {
   background-color: #eeeae0 !important;
   color: #344E41 !important;
