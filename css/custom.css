@@ -6,7 +6,7 @@
   min-width: 840px !important;
 }*/
 
-hr {
+.flex-item flex-column {
   width: 850px;
 }
 
