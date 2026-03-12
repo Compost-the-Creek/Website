@@ -2,11 +2,13 @@
  * Your custom CSS file
  *************************************************************************/
  
+/*
 @media screen and (min-width: 840px) {
   .flex-row {
-    min-width: 840px; /* Adjust this value to your needs */
+    min-width: 840px;
   }
 }
+*/
 
 .menu-container {
   background-color: #eeeae0 !important;
