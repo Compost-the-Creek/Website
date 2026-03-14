@@ -2,6 +2,20 @@
  * Your custom JS file
  *************************************************************************/
 
+// HTML Elements
+
+class wideHeaderElement extends HTMLElement {
+  connectedCallback() {
+      this.style.color = "red";
+  }
+}
+
+// HTML Element Registration
+
+customElements.define("wide-header", wideHeaderElement);
+
+// This was here by default
+
 (function () {
   "use strict";
 
