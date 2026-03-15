@@ -1,18 +1,29 @@
 /*************************************************************************
  * Your custom JS file
  *************************************************************************/
+// Imports
+import {LitElement, html} from 'lit';
 
 // HTML Elements
+export class WideHeader extends LitElement {
+  static styles = css`p { color: blue }`;
 
-class wideHeaderElement extends HTMLElement {
-  connectedCallback() {
-      this.style.color = "red";
+  static properties = {
+    name: {type: String},
+  };
+
+  constructor() {
+    super();
+    this.name = 'Somebody';
+  }
+
+  render() {
+    return html`<p>Hello, ${this.name}!</p>`;
   }
 }
 
 // HTML Element Registration
-
-customElements.define("wide-header", wideHeaderElement);
+customElements.define('wide-header', WideHeader);
 
 // This was here by default
 
