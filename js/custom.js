@@ -9,7 +9,7 @@ export class WideHeader extends LitElement {
   static styles = css`p { color: blue }`;
 
   static properties = {
-    name: {type: String},
+    headerText: {type: String},
   };
 
   constructor() {
@@ -18,7 +18,7 @@ export class WideHeader extends LitElement {
   }
 
   render() {
-    return html`<p>Hello, ${this.name}!</p>`;
+    return html`<p>Hello, ${this.headerText}!</p>`;
   }
 }
 
