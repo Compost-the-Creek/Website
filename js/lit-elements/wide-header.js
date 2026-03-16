@@ -1,7 +1,7 @@
-// Imports
+// Import Lit
 import {LitElement, html} from 'lit';
 
-// HTML Elements
+// Element Construction
 export class WideHeader extends LitElement {
   static styles = css`p { color: blue }`;
 
@@ -18,3 +18,6 @@ export class WideHeader extends LitElement {
     return html`<p>Hello, ${this.text}!</p>`;
   }
 }
+
+// Registration
+customElements.define('wide-header', WideHeader);

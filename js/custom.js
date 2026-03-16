@@ -2,9 +2,6 @@
  * Your custom JS file
  *************************************************************************/
 
-// HTML Element Registration
-customElements.define('wide-header', WideHeader);
-
 // This was here by default
 
 (function () {
