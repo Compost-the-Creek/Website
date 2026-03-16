@@ -1,5 +1,5 @@
 // Import Lit
-import {LitElement, html} from 'lit';
+import {html, css, LitElement} from 'lit';
 
 // Element Construction
 export class WideHeader extends LitElement {
@@ -11,7 +11,7 @@ export class WideHeader extends LitElement {
 
   constructor() {
     super();
-    this.text = 'Header Text';
+    this.text = 'Somebody';
   }
 
   render() {
