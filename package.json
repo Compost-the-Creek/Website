@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "compost the creek website npm thing for all ur npm needs",
+  "main": "custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Compost-the-Creek/Website.git"
+  },
+  "author": "Compost the Creek",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Compost-the-Creek/Website/issues"
+  },
+  "homepage": "https://github.com/Compost-the-Creek/Website#readme",
+  "dependencies": {
+    "lit": "^3.3.2"
+  }
+}
