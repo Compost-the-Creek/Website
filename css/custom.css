@@ -20,13 +20,12 @@
 
 .menu-container {
   background-color: #eeeae0 !important;
-  color: #344E41 !important;
+  /*color: #344E41 !important; */
   position: fixed;
   top: 0;
   left: 0;  
   width: 100%;
   z-index: 1000;
-  padding: 20px;
 }
 
 .menu-items {
