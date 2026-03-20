@@ -28,7 +28,8 @@
   z-index: 1000;
 }
 
-.menu-items {
+.menu .menu-items>a,
+.menu .menu-items>div {
   color: #344E41 !important;
 }
 
