@@ -10,7 +10,17 @@
 }
 */
 
+/* flex-header is header used in sections, not the site header */
+
+.flex-header {
+  width: 100% !important;
+}
+
+/* Site Header CSS */
+
 .menu-container {
+  background-color: #eeeae0 !important;
+  color: #344E41 !important;
   position: fixed;
   top: 0;
   left: 0;  
@@ -19,12 +29,7 @@
   padding: 20px;
 }
 
-.flex-header {
-  width: 100% !important;
-}
-
-.menu-container {
-  background-color: #eeeae0 !important;
+.menu-items {
   color: #344E41 !important;
 }
 
@@ -40,6 +45,8 @@
 .custom-textbox {
   width: 240px;
 }
+
+/* This stuff was already in the template */
 
 #dialog-1,
 #dialog-2,
