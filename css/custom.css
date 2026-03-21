@@ -80,6 +80,11 @@ body > footer {
   color: #344E41 !important;
 }
 
+.footer .footer-items>a {
+  color: #005cbf !important;
+}
+
+
 /* Gallery CSS */
 .gallery {
   display: flex;
