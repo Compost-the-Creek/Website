@@ -69,7 +69,8 @@ body > footer {
 }
 
 /* Footer CSS */
-.footer-container {
+.footer-container
+.banner {
   background-color: #eeeae0 !important;
   color: #344E41 !important;
 }
