@@ -11,15 +11,17 @@
 */
 
 /* CSS for HTML elements */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 main {
-  min-height: 100%;
-  flex-grow: 1;
+flex-grow: 1;
 }
 
-body {
-  margin-top: 5px;
-  display: flex;
-  flex-direction: column;
+footer {
+margin-top:auto;
 }
 
 /* flex-header is header used in sections, not the site header */
