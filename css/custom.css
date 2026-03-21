@@ -11,17 +11,8 @@
 */
 
 /* CSS for HTML elements */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 main {
-flex-grow: 1;
-}
-
-footer {
-margin-top:auto;
+  flex: 1 0 auto;
 }
 
 /* flex-header is header used in sections, not the site header */
@@ -58,6 +49,13 @@ margin-top:auto;
 
 .custom-textbox {
   width: 240px;
+}
+
+/* Content CSS */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Footer CSS */
