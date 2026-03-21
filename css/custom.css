@@ -24,7 +24,7 @@ body > footer {
   top: 100vh;
 }
 
-/* flex-header is header used in sections, not the site header */
+/* flex-header (the header used in sections, not the site header) */
 
 .flex-header {
   width: 100% !important;
