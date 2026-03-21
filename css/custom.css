@@ -22,7 +22,6 @@ body {
 body > footer {
   position: sticky;
   top: 100vh;
-  margin-top: -100%;
 }
 
 /* flex-header is header used in sections, not the site header */
