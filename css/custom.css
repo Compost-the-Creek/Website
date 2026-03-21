@@ -11,7 +11,9 @@
 */
 
 /* CSS for HTML elements */
-/* nothin' yet gng */
+body {
+  margin-top: 15px;
+}
 
 /* flex-header is header used in sections, not the site header */
 
