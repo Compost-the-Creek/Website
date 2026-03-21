@@ -11,8 +11,14 @@
 */
 
 /* CSS for HTML elements */
+main {
+  flex-grow: 1;
+}
+
 body {
-  margin-top: 15px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* flex-header is header used in sections, not the site header */
@@ -51,7 +57,12 @@ body {
   width: 240px;
 }
 
-/* Gallery stuffs */
+/* Footer CSS */
+.footer-container {
+  pass
+}
+
+/* Gallery CSS */
 .gallery {
   display: flex;
   flex-direction: row;
