@@ -13,6 +13,9 @@
 /* CSS for HTML elements */
 html, body {
   height: 100%;
+}
+
+body {
   padding-top: 5px; 
 }
 
