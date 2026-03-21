@@ -12,13 +12,13 @@
 
 /* CSS for HTML elements */
 html, body {
+  height: 100%;
   padding-top: 5px; 
 }
 
 body > footer {
   position: fixed;
-  width: 100%;
-  bottom: 0;
+  top: 100vh;
 }
 
 /* flex-header is header used in sections, not the site header */
