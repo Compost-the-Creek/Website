@@ -11,8 +11,11 @@
 */
 
 /* CSS for HTML elements */
-main {
-  flex: 1 0 auto;
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
 }
 
 /* flex-header is header used in sections, not the site header */
