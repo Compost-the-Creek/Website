@@ -46,6 +46,19 @@
   width: 240px;
 }
 
+/* Gallery stuffs */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 5px;
+}
+
 /* This stuff was already in the template */
 
 #dialog-1,
