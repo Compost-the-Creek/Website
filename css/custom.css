@@ -19,6 +19,7 @@ html, body {
 body > footer {
   position: sticky;
   top: 100vh;
+  margin-top: -100%;
 }
 
 /* flex-header is header used in sections, not the site header */
@@ -65,9 +66,15 @@ body > footer {
 }
 
 /* Footer CSS */
-/*.footer-container {
-  pass;
-}*/
+.footer-container {
+  background-color: #eeeae0 !important;
+  color: #344E41 !important;
+}
+
+.footer .footer-items>a,
+.footer .footer-items>div {
+  color: #344E41 !important;
+}
 
 /* Gallery CSS */
 .gallery {
