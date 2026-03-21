@@ -16,15 +16,15 @@ html, body {
   height: 100%;
 }
 
-body {
+/*body {
   padding-top: 5px; 
-}
+}*/
 
 main {
   flex-grow: 1;
 }
 
-body > footer {
+footer {
   position: sticky;
   top: 100vh;
   margin-top: auto;
@@ -73,7 +73,7 @@ body > footer {
   min-height: 100vh;
 }
 
-/* Footer CSS */
+/* Footer Class CSS */
 .footer-container
 .banner {
   background-color: #eeeae0 !important;
