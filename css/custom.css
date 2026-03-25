@@ -3,7 +3,7 @@
  *************************************************************************/
  
 :root {
-  --header-height: 80px;
+  --header-height: 60px;
 }
 
 /* CSS for built-in HTML elements */
@@ -49,7 +49,9 @@ footer {
 .menu .menu-items>a,
 .menu .menu-items>div,
 .menu .menu-items>a::before,
-.menu .menu-items>div::before {
+.menu .menu-items>div::before,
+.menu .menu-button:focus+.menu-items>a,
+.menu .menu-button:focus+.menu-items>div {
   color: #344E41 !important;
 }
 
