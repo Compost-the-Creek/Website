@@ -48,15 +48,11 @@ footer {
 
 .menu .menu-items>a,
 .menu .menu-items>div,
-.menu .menu-items>a::before,
-.menu .menu-items>div::before,
-.menu .menu-items .dropdown .dropdown-content>a::before,
-.menu .menu-items .dropdown .dropdown-content>div::before {
+.menu .menu-items .dropdown .dropdown-content a::before {
   color: #344E41 !important;
 }
 
-.menu .menu-items>a::before:hover,
-.menu .menu-items>div::before:hover {
+.menu .menu-items .dropdown .dropdown-content a:hover {
   text-decoration: underline;
 }
 
