@@ -35,13 +35,11 @@ footer {
 }
 
 /* flex-header (the header used in sections, not the site header) */
-
 .flex-header {
   width: 100% !important;
 }
 
 /* Site Header CSS */
-
 .menu-container {
   background-color: #eeeae0 !important;
   /*color: #344E41 !important; */
