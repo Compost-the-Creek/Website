@@ -51,7 +51,7 @@ footer {
 .menu .menu-items>a::before,
 .menu .menu-items>div::before,
 .menu .menu-items .dropdown .dropdown-content>a::before,
-.menu .menu-items .dropdown .dropdown-content>div::before,
+.menu .menu-items .dropdown .dropdown-content>div::before {
   color: #344E41 !important;
 }
 
