@@ -48,8 +48,12 @@ footer {
 
 .menu .menu-items>a,
 .menu .menu-items>div,
-.menu .menu-items .dropdown .dropdown-content a::before {
+.menu .menu-items .dropdown .dropdown-content>a {
   color: #344E41 !important;
+}
+
+.menu .menu-items .dropdown .dropdown-content>a:hover {
+  text-decoration: underline;
 }
 
 .menu .menu-items .dropdown .dropdown-content a:hover {
