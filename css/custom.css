@@ -2,13 +2,9 @@
  * Your custom CSS file
  *************************************************************************/
  
-/*
-@media screen and (min-width: 840px) {
-  .flex-row {
-    min-width: 840px;
-  }
+:root {
+  --header-height: 80px;
 }
-*/
 
 /* CSS for built-in HTML elements */
 html, body {
@@ -17,7 +13,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  scroll-margin-top: -100%;
+  scroll-margin-top: calc(var(--header-height) + 1rem);
 }
 
 /*body {
