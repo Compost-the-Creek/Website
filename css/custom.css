@@ -54,7 +54,9 @@ footer {
 
 .menu .menu-items>a,
 .menu .menu-items>div,
-.menu .menu-items>.dropdown-content {
+.menu .menu-items>.dropdown-content,
+.menu .menu-button:focus+.menu-items>a,
+.menu .menu-button:focus+.menu-items>div {
   color: #344E41 !important;
 }
 
