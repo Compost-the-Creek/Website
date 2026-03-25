@@ -53,7 +53,8 @@ footer {
 }
 
 .menu .menu-items>a,
-.menu .menu-items>div {
+.menu .menu-items>div,
+.menu .menu-items>.dropdown-content {
   color: #344E41 !important;
 }
 
