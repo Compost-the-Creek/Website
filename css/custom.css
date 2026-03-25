@@ -59,6 +59,11 @@ footer {
   color: #344E41 !important;
 }
 
+.menu .menu-items>a::before:hover,
+.menu .menu-items>div::before:hover {
+  text-decoration: underline;
+}
+
 #site-title {
   font-family: 'Prompt', Helvetica, sans-serif !important;
   color: #7da12d !important;
