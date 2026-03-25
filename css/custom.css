@@ -54,14 +54,10 @@ footer {
 
 .menu .menu-items>a,
 .menu .menu-items>div,
-.menu .menu-button+.menu-items>a,
-.menu .menu-button+.menu-items>div {
+.menu .menu-items>a::before,
+.menu .menu-items>div::before {
   color: #344E41 !important;
 }
-
-  .menu .menu-items .dropdown .dropdown-content a {
-    color: #344E41 !important;
-  }
 
 #site-title {
   font-family: 'Prompt', Helvetica, sans-serif !important;
