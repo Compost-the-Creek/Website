@@ -6,6 +6,36 @@
   --header-height: 60px;
 }
 
+/* Crop container */
+.crop-container {
+  width: var(--crop-width, 200px);
+  height: var(--crop-height, 200px);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crop-container img {
+  width: 100%;
+  height: 100%;
+  /* Ensures image covers area without stretching */
+  object-fit: cover;
+  /* Centers the image within the container */
+  object-position: center;
+}
+
+
+.crop-container img {
+  width: 100%;
+  height: 100%;
+  /* Ensures image covers area without stretching */
+  object-fit: cover;
+  /* Centers the image within the container */
+  object-position: center;
+}
+
+
 /* CSS for built-in HTML elements */
 html, body {
   margin: 0;
