@@ -6,6 +6,11 @@
   --header-height: 60px;
 }
 
+/* Clickable item */
+.clickable-item {
+  cursor: pointer;
+}
+
 /* Crop container */
 .crop-container {
   width: var(--crop-width, 200px);
