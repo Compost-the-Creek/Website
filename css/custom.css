@@ -6,8 +6,8 @@
   --header-height: 60px;
 }
 
-/* Clickable item */
-.clickable-item:hover {
+/* Images in <a> tags */
+a img {
   cursor: pointer;
 }
 
