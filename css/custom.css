@@ -7,7 +7,7 @@
 }
 
 /* Clickable item */
-.clickable-item {
+.clickable-item:hover {
   cursor: pointer;
 }
 
