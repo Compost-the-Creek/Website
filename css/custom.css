@@ -86,8 +86,8 @@ menu-items a,
 .dropdown-content a {
   text-decoration: none;
   color: #344E41 !important;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
 }
 
 menu-items a:hover,
