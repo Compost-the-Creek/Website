@@ -108,6 +108,11 @@ footer {
   width: 240px;
 }
 
+/* Page Title CSS */
+.page-title {
+  text-align: center;
+}
+
 /* Content CSS */
 .content-container {
   display: flex;
