@@ -111,6 +111,11 @@ footer {
   width: 240px;
 }
 
+/* Wide HR CSS */
+hr.wide-hr {
+  width: 100%;
+}
+
 /* Page Title CSS */
 .page-title {
   text-align: center;
