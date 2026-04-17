@@ -81,10 +81,12 @@ footer {
   z-index: 1000;
 }
 
-.menu .menu-items>a,
-.menu .menu-items>div,
+.menu .menu-items a,
+.menu .menu-items div,
 .menu .menu-items .dropdown .dropdown-content>a {
   color: #344E41 !important;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .menu .menu-items .dropdown .dropdown-content>a:hover {
