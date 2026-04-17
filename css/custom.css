@@ -81,7 +81,7 @@ footer {
   z-index: 1000;
 }
 
-menu-items a,
+.menu-items a,
 .dropdown a,
 .dropdown-content a {
   text-decoration: none;
@@ -90,7 +90,7 @@ menu-items a,
   padding-right: 10px;*/
 }
 
-menu-items a:hover,
+.menu-items a:hover,
 .dropdown a:hover,
 .dropdown-content a:hover {
   text-decoration: underline;
