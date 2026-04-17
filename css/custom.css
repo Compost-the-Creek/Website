@@ -84,16 +84,15 @@ footer {
 menu-items a,
 .dropdown a,
 .dropdown-content a {
+  text-decoration: none;
   color: #344E41 !important;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.menu .menu-items .dropdown .dropdown-content>a:hover {
-  text-decoration: underline;
-}
-
-.menu .menu-items .dropdown .dropdown-content a:hover {
+menu-items a:hover,
+.dropdown a:hover,
+.dropdown-content a:hover {
   text-decoration: underline;
 }
 
