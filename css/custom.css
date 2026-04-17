@@ -83,7 +83,8 @@ footer {
 
 .menu-items a,
 .dropdown a,
-.dropdown-content a {
+.dropdown-content a,
+.menu-link {
   text-decoration: none;
   color: #344E41 !important;
   /*padding-left: 10px;
@@ -92,7 +93,8 @@ footer {
 
 .menu-items a:hover,
 .dropdown a:hover,
-.dropdown-content a:hover {
+.dropdown-content a:hover,
+.menu-link:hover {
   text-decoration: underline;
 }
 
