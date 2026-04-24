@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 button {
-  background-color: #A3B18A; 
+  background-color: #588157; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -66,7 +66,7 @@ button {
 }
 
 button:hover {
-  background-color: #588157;
+  background-color: #3A5A40;
 }
 
 /*body {
