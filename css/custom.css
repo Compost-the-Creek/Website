@@ -18,7 +18,17 @@ a.font-icon:hover {
   cursor: pointer;
 }*/
 
+/* Impact fact */
+.impact-fact {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  outline: #344E41;
+  border-radius: 5px;
+}
+
 /* Clickable items (specifically for images wrapped in <a> tags) */
+
 /*.clickable-img img {
   cursor: pointer;
 }*/
