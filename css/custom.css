@@ -87,7 +87,10 @@ footer {
   top: 100vh;
   margin: 0 auto;
   margin-top: auto;
-  max-width: 900px;
+}
+
+.footer-table {
+    max-width: 900px;
 }
 
 /* flex-header (the header used in sections, not the site header) */
