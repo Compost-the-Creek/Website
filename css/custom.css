@@ -173,7 +173,8 @@ footer {
   color: #344E41 !important;
 }
 
-.footer .footer-items>a {
+.footer .footer-items>a,
+.footer .footer-items>p>a {
   color: #005cbf !important;
 }
 
