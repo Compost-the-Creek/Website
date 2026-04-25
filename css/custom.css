@@ -19,11 +19,12 @@ a.font-icon:hover {
 }*/
 
 /* Clickable items (specifically for images wrapped in <a> tags) */
-.clickable-img img {
+/*.clickable-img img {
   cursor: pointer;
-}
+}*/
 
 .clickable-img img:hover {
+  cursor: pointer;
   filter: brightness(70%);
 }
 
