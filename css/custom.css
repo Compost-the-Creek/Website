@@ -19,9 +19,14 @@ a.font-icon:hover {
 }*/
 
 /* Clickable items (specifically for images wrapped in <a> tags) */
-.clickable-item img {
+.clickable-img img {
   cursor: pointer;
 }
+
+.clickable-img img:hover {
+  filter: brightness(70%);
+}
+
 
 /* Crop container */
 .crop-container {
