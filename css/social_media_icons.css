@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 
-.icon-mail:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e800'; } /* '' */ 
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
