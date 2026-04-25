@@ -24,8 +24,8 @@ a.font-icon:hover {
   text-align: center;
   padding: 10px;
   margin: 10px;
-  border: 4px solid black /*#344E41;*/
-  border-radius: 5px;
+  border: 2px solid black; /*#344E41;*/
+  border-radius: 10px;
 }
 
 /* Clickable items (specifically for images wrapped in <a> tags) */
