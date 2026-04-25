@@ -58,7 +58,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-[class^="icon-"]:hover, [class*=" icon-"]:hover {
+[class^="icon-"]:hover::before, [class*=" icon-"]:hover::before {
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
