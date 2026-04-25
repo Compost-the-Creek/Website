@@ -6,6 +6,18 @@
   --header-height: 60px;
 }
 
+/* Font icons */
+a.font-icon {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a.font-icon:hover {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* Clickable items (specifically for images wrapped in <a> tags) */
 .clickable-item img {
   cursor: pointer;
