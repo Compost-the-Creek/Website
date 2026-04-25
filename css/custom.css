@@ -47,9 +47,10 @@ html, body {
   height: 100%;
 }
 
-body {
+/*body {
   background-color: #DAD7CD;
-}
+  padding-top: 5px; 
+}*/
 
 h1, h2, h3, h4, h5, h6 {
   scroll-margin-top: calc(var(--header-height) + 1rem);
@@ -77,10 +78,6 @@ button {
 button:hover {
   background-color: #3A5A40;
 }
-
-/*body {
-  padding-top: 5px; 
-}*/
 
 main {
   flex-grow: 1;
