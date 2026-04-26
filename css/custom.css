@@ -200,7 +200,6 @@ footer {
 }
 
 .footer {
-  position: relative;
   margin: 0 auto;
   max-width: 900px;
 }
@@ -219,6 +218,8 @@ footer {
 }
 
 .footer-container {
+  z-index: 2;
+  min-width: 300px;
   width: 100%;
   box-shadow: 0 0px 4px rgb(0 0 0 / 32%), 0 0px 10px rgb(0 0 0 / 23%);
 }
