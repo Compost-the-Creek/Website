@@ -145,6 +145,11 @@ main {
   text-decoration: underline;
 }
 
+.menu-button:hover,
+.menu-button img:hover {
+  cursor: pointer;
+}
+
 #site-title {
   font-family: 'Prompt', Helvetica, sans-serif !important;
   color: #7da12d !important;
