@@ -30,9 +30,9 @@ a.font-icon:hover {
 
 /* Clickable items (specifically for images wrapped in <a> tags) */
 
-/*.clickable-img img {
-  cursor: pointer;
-}*/
+.clickable-img img {
+  border-radius: 10px;
+}
 
 .clickable-img img:hover {
   cursor: pointer;
