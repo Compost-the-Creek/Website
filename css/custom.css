@@ -179,11 +179,11 @@ hr.wide-hr {
 footer {
   position: sticky;
   top: 100vh;
-  /*margin: 0 auto;*/
   margin-top: auto;
+  /*margin: 0 auto;
   max-width: 900px;
   margin: 20px auto;
-  padding: 0 30px;
+  padding: 0 30px;*/
 }
 
 .footer-table {
