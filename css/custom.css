@@ -145,13 +145,13 @@ main {
   text-decoration: underline;
 }
 
-.menu-button>img {
+/*.menu-button>img {
   width: calc(100%);
   height: auto;
   background-color: #344E41;
   -webkit-mask: url('img/menu.png') no-repeat center / contain;
   mask: url('img/menu.png') no-repeat center / contain;
-}
+}*/
 
 .menu-button:hover,
 .menu-button>img:hover {
