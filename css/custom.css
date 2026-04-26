@@ -186,6 +186,18 @@ footer {
   padding: 0 30px;*/
 }
 
+.footer {
+  position: relative;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.footer .footer-table {
+  padding: 0px 10px;
+  width: 100%;
+  margin: 0;
+}
+
 .footer-table {
   padding: 0;
   width: 100%;
