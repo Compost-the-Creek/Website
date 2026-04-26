@@ -187,9 +187,13 @@ footer {
 }
 
 .footer-table {
-  padding: 0;
-  width: 100%;
   margin: 0 auto;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 30px;
+  /*padding: 0;
+  width: 100%;
+  margin: 0 auto;*/
   align-self: flex-end;
 }
 
