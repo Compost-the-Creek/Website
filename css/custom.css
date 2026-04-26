@@ -202,6 +202,7 @@ footer {
 .footer {
   margin: 0 auto;
   max-width: 900px;
+  line-height: 1.5rem;
 }
 
 .footer .footer-table {
