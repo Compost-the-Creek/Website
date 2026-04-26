@@ -186,16 +186,11 @@ footer {
   padding: 0 30px;*/
 }
 
-/*.footer-table {
-  align-self: flex-end;
-  margin: 0 auto;
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 30px;
-  padding: 0;
+footer .footer-table {
+  padding: 0px 10px;
   width: 100%;
-  margin: 0 auto;
-}*/
+  margin: 0;
+}
 
 .footer-container {
   width: 100%;
