@@ -181,12 +181,12 @@ footer {
   top: 100vh;
   margin-top: auto;
   margin: 0 auto;
-  max-width: 900px;
  /*margin: 20px auto;
   padding: 0 30px;*/
 }
 
 footer .footer-table {
+    max-width: 900px;
   padding: 0px 10px;
   width: 100%;
   margin: 0;
@@ -198,7 +198,7 @@ footer .footer-table {
 }
 
 .footer-container
-.banner {
+.footer
   background-color: #eeeae0 !important;
   color: #344E41 !important;
 }
