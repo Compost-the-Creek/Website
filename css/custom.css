@@ -181,6 +181,9 @@ footer {
   top: 100vh;
   margin: 0 auto;
   margin-top: auto;
+}
+
+.footer-table {
   max-width: 900px;
 }
 
