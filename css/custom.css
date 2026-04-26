@@ -180,26 +180,17 @@ footer {
   position: sticky;
   top: 100vh;
   margin-top: auto;
-  margin: 0 auto;
-  font-size: 16px;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  overflow-x: auto;
-  display: flex;
+  /*margin: 0 auto;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 30px;*/
 }
 
-.footer .footer-table {
+.footer-table {
   padding: 0;
   width: 100%;
   margin: 0 auto;
   align-self: flex-end;
-}
-
-.footer .flex-item {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 30px;
 }
 
 .footer-container {
@@ -207,8 +198,7 @@ footer {
   box-shadow: 0 0px 4px rgb(0 0 0 / 32%), 0 0px 10px rgb(0 0 0 / 23%);
 }
 
-.footer-container,
-.footer,
+.footer-container
 .banner {
   background-color: #eeeae0 !important;
   color: #344E41 !important;
@@ -223,6 +213,7 @@ footer {
 .footer .footer-items>p>a {
   color: #005cbf !important;
 }
+
 
 /* Gallery CSS */
 .gallery {
